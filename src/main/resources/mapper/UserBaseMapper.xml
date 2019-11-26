@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sun.mapper.UserBaseDOMapper">
+    <select id="select" resultType="java.util.HashMap" >
+        select *  from ad_user_base
+    </select>
+    <select id="select2" resultType="java.util.HashMap" >
+        select *  from ad_user_base
+    </select>
+
+</mapper>
